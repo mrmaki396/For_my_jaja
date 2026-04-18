@@ -103,6 +103,32 @@
           transform: scale(1);
         }
       }
+
+      /* Responsive adjustments for phones */
+      @media (max-width: 600px) {
+        .scene {
+          width: 95vw;
+          height: 70vh;
+        }
+        .card__face--front {
+          font-size: 2em;
+          padding: 20px;
+        }
+        .card__face--back {
+          font-size: 1em;
+          padding: 20px;
+        }
+        .message-container {
+          max-height: 40vh;
+          font-size: 0.95em;
+        }
+        .cake {
+          font-size: 3em;
+        }
+        .heart {
+          font-size: 2em;
+        }
+      }
     </style>
   </head>
   <body>
